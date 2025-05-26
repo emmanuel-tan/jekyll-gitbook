@@ -50,17 +50,32 @@ exclude:
   - _drafts
 
 collections:
-  pages:
+  about: 
     output: true
     permalink: /:collection/:path/
-  others:
+  
+  projects: 
+    output: true
+    permalink: /:collection/:path/
+  
+  contact: 
     output: true
     permalink: /:collection/:path/
 
+  # pages:
+  #   output: true
+  #   permalink: /:collection/:path/
+  # others:
+  #   output: true
+  #   permalink: /:collection/:path/
+
 ordered_collections:
+  - about
+  - projects
   - posts
-  - pages
-  - others
+  - contact
+  # - pages
+  # - others
 
 page_width: 800px
 
