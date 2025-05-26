@@ -1,4 +1,4 @@
-name: Build and Deploy Jekyll Site to Netlify
+name: Build and Deploy Jekyll Site to Netlify (Using Netlify CLI Action)
 
 on:
   push:
