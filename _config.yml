@@ -48,6 +48,8 @@ permalink:                /:categories/:year-:month-:day-:title:output_ext
 
 exclude:
   - _drafts
+  - _pages
+  - _others
 
 collections:
   about: 
@@ -58,9 +60,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   
-  contact: 
-    output: true
-    permalink: /:collection/:path/
+  # contact: 
+  #   output: true
+  #   permalink: /:collection/:path/
 
   # pages:
   #   output: true
@@ -73,7 +75,7 @@ ordered_collections:
   - about
   - projects
   - posts
-  - contact
+  # - contact
   # - pages
   # - others
 
