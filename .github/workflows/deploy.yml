@@ -7,28 +7,35 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
+    
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
-
+        uses: actions/checkout@v4
+        
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.2
-
+          bundler-cache: true
+          
       - name: Install Dependencies
         run: | 
           gem install bundler
           bundle install
-
+          
       - name: Build Jekyll Site
         run: bundle exec jekyll build
-
+        
       - name: Deploy to Netlify
-        uses: netlify/actions/cli@v3
+        uses: nwtgck/actions-netlify@v3.0
         with:
-          args: deploy --dir=_site --prod
-        env: 
+          publish-dir: './_site'
+          production-branch: master
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          deploy-message: "Deploy from GitHub Actions"
+          enable-pull-request-comment: false
+          enable-commit-comment: true
+          overwrites-pull-request-comment: true
+        env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
