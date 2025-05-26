@@ -2,7 +2,7 @@ name: Deploy Jekyll Site to Netlify
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 jobs:
   build-and-deploy:
