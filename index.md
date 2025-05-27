@@ -20,11 +20,6 @@ Johnson & Johnson, Asia Pacific Strategy Organisation; Regional Neuroscience Mar
 
 <!-- At J&J, I supported the regional neuroscience team in developing marketing narrative and synthesizing research and clinical trial outcomes. I also supported the Asia Pacific operations team in driving employee engagement through strategic culture-building events. -->
 
-## Publications
-Tan, Q. W., **Tan, E.**, & Mutwil, M. (2024). Diurnal. plant. tools in 2024: Expanding to Marchantia polymorpha and Four Angiosperms. *Plant and Cell Physiology*, 65(11), 1888-1899.
-
-Villanueva, E. M. F., Lim, P. K., Lim, J. J. J., Lim, S. C., Lau, P. Y., Koh, K. T. S., **Tan, E.**, Kairon, R. S., See, W. A., Liao, J. X., Hee, K. M., Vijay, V., Maitra, I., Boon, C. J., Fo, K., Wang, Y. T., Jaya, R., Hew, L. A., Lim, Y. Y., Lee, W. Q., … Mutwil, M. (2022). Protist.guru: A Comparative Transcriptomics Database for Protists. *Journal of molecular biology*, 434(11), 167502. https://doi.org/10.1016/j.jmb.2022.167502
-
 ## Certificates and courses
 **Career Essentials in GitHub Professional Certificate - GitHub**
 - Issued May 2025; [Show credential](https://www.linkedin.com/learning/certificates/d9216c05893a17357c603cfd7445834490ff96af96a1892b70cec131ccb6f557?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B4lsgl5qERNW1KIZnCEZd8g%3D%3D)
@@ -37,3 +32,8 @@ Villanueva, E. M. F., Lim, P. K., Lim, J. J. J., Lim, S. C., Lau, P. Y., Koh, K.
 
 **Introduction to GPU Programming for Life Sciences - SIB Swiss Institute of Bioinformatics**
 - Attended Feb 2025
+
+## Publications
+Tan, Q. W., **Tan, E.**, & Mutwil, M. (2024). Diurnal. plant. tools in 2024: Expanding to Marchantia polymorpha and Four Angiosperms. *Plant and Cell Physiology*, 65(11), 1888-1899.
+
+Villanueva, E. M. F., Lim, P. K., Lim, J. J. J., Lim, S. C., Lau, P. Y., Koh, K. T. S., **Tan, E.**, Kairon, R. S., See, W. A., Liao, J. X., Hee, K. M., Vijay, V., Maitra, I., Boon, C. J., Fo, K., Wang, Y. T., Jaya, R., Hew, L. A., Lim, Y. Y., Lee, W. Q., … Mutwil, M. (2022). Protist.guru: A Comparative Transcriptomics Database for Protists. *Journal of molecular biology*, 434(11), 167502. https://doi.org/10.1016/j.jmb.2022.167502
