@@ -49,12 +49,13 @@ permalink:                /:categories/:year-:month-:day-:title:output_ext
 exclude:
   - _drafts
   - _pages # some residual template stuff
+  - _about
   - _others
 
 collections:
-  about: 
-    output: true
-    permalink: /:collection/:path/
+  # about: 
+  #   output: true
+  #   permalink: /:collection/:path/
   
   projects: 
     output: true
