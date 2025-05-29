@@ -51,6 +51,7 @@ exclude:
   - _pages # some residual template stuff
   - _about
   - _others
+  - README.md
 
 collections:
   # about: 
